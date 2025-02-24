@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="TestNG.Listeners">
+</listener>
+</listeners>
+  <test name="PersonalLoan">
+  <parameter name="URL" value="personalloan.com">
+</parameter>
+  <classes>
+  <class name="TestNG.personalLoan">
+  </class>
+  </classes>
+  </test>
+  
+  <test name="BikeLoan">
+  <parameter name="URL" value="bikeLoan.com">
+</parameter>
+  <classes>
+  <class name="TestNG.BikeLoan">
+  </class>
+  </classes>
+  </test>
+</suite>
