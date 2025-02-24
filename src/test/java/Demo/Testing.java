@@ -19,7 +19,6 @@ public class Testing {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        driver.quit();
 
     }
 
