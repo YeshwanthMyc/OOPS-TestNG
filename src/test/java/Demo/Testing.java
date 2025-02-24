@@ -19,12 +19,14 @@ public class Testing {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        driver.quit();
 
     }
 
     @Test     
         public void demo() {
             System.out.println("Demo");
+            
         }
     
 }
