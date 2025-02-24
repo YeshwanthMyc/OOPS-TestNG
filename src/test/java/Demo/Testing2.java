@@ -8,7 +8,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
-public class Testing {
+public class Testing2 {
 
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
@@ -27,8 +27,6 @@ public class Testing {
             System.out.println("Demo");
             System.out.println("Demo123");
             System.out.println("Demo12345");
-            System.out.println("yesh");
-            
             
             
         }
